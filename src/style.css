@@ -11,7 +11,7 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #F4661B;
 }
 
 .purple {
@@ -281,13 +281,13 @@ button:focus {
 }
 
 .main-name {
-  color: #cd5ff8;
+    color: #F4661B;
 }
 
 .Typewriter__wrapper {
-  font-size: 2.2em !important;
-  color: #be6adf !important;
-  font-weight: 600 !important;
+    font-size: 2.2em !important;
+    color: #F4661B !important;
+    font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
@@ -395,7 +395,7 @@ button:focus {
 }
 
 .icon-colour {
-  color: #700c86 !important;
+    color: #F4661B !important;
 }
 
 /* --------- */

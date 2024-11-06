@@ -1,40 +1,47 @@
-import React from "react";
+import React, { useState } from "react";
 import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
-import { CgWebsite } from "react-icons/cg";
-import { BsGithub } from "react-icons/bs";
+import { Carousel } from "react-bootstrap";
 
-function ProjectCards(props) {
-  return (
-    <Card className="project-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
-      <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify" }}>
-          {props.description}
-        </Card.Text>
-        <Button variant="primary" href={props.ghLink} target="_blank">
-          <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"}
-        </Button>
-        {"\n"}
-        {"\n"}
+function ProjectCard(props) {
+    const [index, setIndex] = useState(0);
 
-        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
+    const handleSelect = (selectedIndex) => {
+        setIndex(selectedIndex);
+    };
 
-        {!props.isBlog && props.demoLink && (
-          <Button
-            variant="primary"
-            href={props.demoLink}
-            target="_blank"
-            style={{ marginLeft: "10px" }}
-          >
-            <CgWebsite /> &nbsp;
-            {"Demo"}
-          </Button>
-        )}
-      </Card.Body>
-    </Card>
-  );
+    // Vérification si plusieurs images sont passées en prop 'imgPaths'
+    const renderImages = () => {
+        if (props.imgPaths && props.imgPaths.length > 1) {
+            return (
+                <Carousel activeIndex={index} onSelect={handleSelect}>
+                    {props.imgPaths.map((image, idx) => (
+                        <Carousel.Item key={idx}>
+                            <img
+                                className="d-block w-100"
+                                src={image}
+                                alt={`slide-${idx}`}
+                                style={{ height: "auto", width: "100%" }}
+                            />
+                        </Carousel.Item>
+                    ))}
+                </Carousel>
+            );
+        } else {
+            return <Card.Img variant="top" src={props.imgPaths[0]} alt="card-img" />;
+        }
+    };
+
+    return (
+        <Card className="project-card-view">
+            {renderImages()}
+            <Card.Body>
+                <Card.Title>{props.title}</Card.Title>
+                <Card.Text style={{ textAlign: "justify" }}>
+                    {props.description}
+                </Card.Text>
+            </Card.Body>
+        </Card>
+    );
 }
-export default ProjectCards;
+
+export default ProjectCard;
