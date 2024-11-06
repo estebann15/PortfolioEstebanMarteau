@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PortfolioEstebanMarteau/static/css/main.37854b0d.css",
-    "main.js": "/PortfolioEstebanMarteau/static/js/main.0ffd7a8a.js",
+    "main.js": "/PortfolioEstebanMarteau/static/js/main.2913a288.js",
     "static/js/415.733482ac.chunk.js": "/PortfolioEstebanMarteau/static/js/415.733482ac.chunk.js",
     "static/js/787.bedf56d3.chunk.js": "/PortfolioEstebanMarteau/static/js/787.bedf56d3.chunk.js",
     "static/media/PACMAN.jpg": "/PortfolioEstebanMarteau/static/media/PACMAN.ac8a095f055bd5217e6b.jpg",
@@ -47,12 +47,12 @@
     "static/media/pre.svg": "/PortfolioEstebanMarteau/static/media/pre.c065569a0bdfede0b85d.svg",
     "index.html": "/PortfolioEstebanMarteau/index.html",
     "main.37854b0d.css.map": "/PortfolioEstebanMarteau/static/css/main.37854b0d.css.map",
-    "main.0ffd7a8a.js.map": "/PortfolioEstebanMarteau/static/js/main.0ffd7a8a.js.map",
+    "main.2913a288.js.map": "/PortfolioEstebanMarteau/static/js/main.2913a288.js.map",
     "415.733482ac.chunk.js.map": "/PortfolioEstebanMarteau/static/js/415.733482ac.chunk.js.map",
     "787.bedf56d3.chunk.js.map": "/PortfolioEstebanMarteau/static/js/787.bedf56d3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.37854b0d.css",
-    "static/js/main.0ffd7a8a.js"
+    "static/js/main.2913a288.js"
   ]
 }
