@@ -29,8 +29,6 @@ function ProjectsPersonal() {
                             isBlog={false}
                             title="Application perso"
                             description="A venir"
-                            ghLink="https://github.com/soumyajit4419/Chatify"
-                            demoLink="https://chatify-49.web.app/"
                         />
                     </Col>
                     {/* Un autre projet */}
@@ -40,8 +38,6 @@ function ProjectsPersonal() {
                             isBlog={false}
                             title="Site web perso"
                             description="A venir"
-                            ghLink="https://github.com/soumyajit4419/Chatify"
-                            demoLink="https://chatify-49.web.app/"
                         />
                     </Col>
 
@@ -51,8 +47,6 @@ function ProjectsPersonal() {
                             isBlog={false}
                             title="Jeu Pygame"
                             description="A venir"
-                            ghLink="https://github.com/soumyajit4419/Chatify"
-                            demoLink="https://chatify-49.web.app/"
                         />
                     </Col>
 
@@ -62,8 +56,6 @@ function ProjectsPersonal() {
                             isBlog={false}
                             title="Jeu UNITY 2D"
                             description="A venir"
-                            ghLink="https://github.com/soumyajit4419/Chatify"
-                            demoLink="https://chatify-49.web.app/"
                         />
                     </Col>
                 </Row>

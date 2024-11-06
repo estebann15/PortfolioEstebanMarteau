@@ -38,7 +38,7 @@ function NavBar() {
         >
             <Container>
                 {/* Navbar with logo and name */}
-                <Navbar.Brand href="/" className="d-flex align-items-center">
+                <Navbar.Brand className="d-flex align-items-center">
                     <img src={logo} className="img-fluid logo" alt="brand" />
                     <span className="ms-2 fw-bold" style={{ color: "white" }}>
                         Esteban Marteau
