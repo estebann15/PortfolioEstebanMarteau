@@ -49,8 +49,8 @@ function Projects() {
                         <ProjectCard
                             imgPaths={[comet1,comet2,comet3]}  // Plusieurs images
                             isBlog={false}
-                            title="Outil d'automatisation de la couverture de modèle d'un pilote automatique"
-                            description="A venir"
+                            title="Outil d'automatisation de la couverture de modèle pour un pilote automatique"
+                            description="Projet réalisé lors de mon stage chez Thales. La couverture de modèle pour le pilote automatique d'un hélicoptère Airbus étant très longue, j'ai créé un outil pour automatiser ce processus. J'ai mené ce projet de A à Z, de la spécification des besoins à la certification EASA, en passant par la programmation en Python."
                         />
                     </Col>
                     <Col md={4} className="project-card">
@@ -58,48 +58,7 @@ function Projects() {
                             imgPaths={[stage1,stage11]}  // Plusieurs images
                             isBlog={false}
                             title="Projet Stage découverte ingénieur"
-                            description="A venir"
-                        />
-                    </Col>
-                    <Col md={4} className="project-card">
-                        <ProjectCard
-                            imgPaths={[ensemMap,ensemMap2]}  // Plusieurs images
-                            isBlog={false}
-                            title="ENSEM MAP"
-                            description="A venir"
-                        />
-                    </Col>
-                    <Col md={4} className="project-card">
-                        <ProjectCard
-                            imgPaths={[twizzy]}  // Une seule image pour ce projet
-                            isBlog={false}
-                            title="Twizzy"
-                            description="A venir"
-                        />
-                    </Col>
-                    <Col md={4} className="project-card">
-                        <ProjectCard
-                            imgPaths={[sami,sami1,sami2]}  // Une seule image
-                            isBlog={false}
-                            title="SAMI"
-                            description="A venir"
-
-                        />
-                    </Col>
-                    <Col md={4} className="project-card">
-                        <ProjectCard
-                            imgPaths={[pacman]}  // Une seule image
-                            isBlog={false}
-                            title="PACMAN GAME"
-                            description="A venir"
-                        />
-                    </Col>
-                    <Col md={4} className="project-card">
-                        <ProjectCard
-                            imgPaths={[separation]}  // Une seule image
-                            isBlog={false}
-                            title="Machine Learning Séparation"
-                            description="A venir"
+                            description="Dans le cadre de nouvelles normes gouvernementales, le site de Marcoule doit ajouter des places de parking avec bornes de recharge électrique. J'interviens en début de projet pour recenser et cartographier les places de stationnement sur le site de l'entreprise. (QGIS, Python)"
                         />
                     </Col>
                     <Col md={4} className="project-card">
@@ -107,7 +66,7 @@ function Projects() {
                             imgPaths={[robot1, robotic12, robotic13, robotic14]}  // Plusieurs images
                             isBlog={false}
                             title="ROBITIQUE 1"
-                            description="A venir"
+                            description="Projet de robotique où j'ai programmé l'algorithme d'un robot pour qu'il utilise son LIDAR et GPS afin de parcourir et cartographier une salle de manière optimale. (ROS2, C++, Python)"
                         />
                     </Col>
                     <Col md={4} className="project-card">
@@ -115,7 +74,7 @@ function Projects() {
                             imgPaths={[robot2, robotic22, robotic23]}  // Une seule image
                             isBlog={false}
                             title="ROBOTIQUE 2"
-                            description="A venir"
+                            description="Projet de recherche en groupe avec deux collègues américains. Nous devions trouver le meilleur algorithme pour permettre au robot Husky de se déplacer d'un point à un autre à l'intérieur, où le GPS est inutilisable, en utilisant son LIDAR. (ROS2, C++, Python)"
                         />
                     </Col>
                     <Col md={4} className="project-card">
@@ -123,7 +82,7 @@ function Projects() {
                             imgPaths={[perona1, perona11, perona2]}  // Une seule image
                             isBlog={false}
                             title="DEBRUITAGE (PERONA MALIK)"
-                            description="A venir"
+                            description="Projet dans le cadre d'un cours sur les équations aux dérivées partielles (EDP). J'ai utilisé l'équation de Perona-Malik pour débruiter une image bruitée de plusieurs manières différentes (Gaussienne, multiplicative, etc.). Réalisé en Matlab."
                         />
                     </Col>
                     <Col md={4} className="project-card">
@@ -131,7 +90,7 @@ function Projects() {
                             imgPaths={[pendulum2, chaos, pendulum3]}  // Une seule image
                             isBlog={false}
                             title="Pendule Magnétique"
-                            description="A venir"
+                            description="Dans le cadre d'un cours sur le chaos en mathématiques, j'ai modélisé et étudié le comportement chaotique d'un pendule magnétique. Les images illustrent son comportement en fonction de différents paramètres. Réalisé avec Mathematica."
                         />
                     </Col>
                     <Col md={4} className="project-card">
@@ -139,9 +98,49 @@ function Projects() {
                             imgPaths={[dogbreed, dogbreed2, dogbreed3]}  // Une seule image
                             isBlog={false}
                             title="DOG BREEDS"
-                            description="A venir"
+                            description="Dans le cadre d'un cours de statistiques appliquées au machine learning, projet d'identification de la race d'un chien à partir d'une image en utilisant des techniques de machine learning étudiées en classe, telles que Random Forest, CNN et k-NN."
                         />
                     </Col>
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPaths={[ensemMap,ensemMap2]}  // Plusieurs images
+                            isBlog={false}
+                            title="ENSEM MAP"
+                            description="Projet scolaire visant à créer une application permettant aux élèves de mon école de se déplacer dans les couloirs labyrinthiques de l'ENSEM. Application réalisée en Java avec Android Studio."
+                        />
+                    </Col>
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPaths={[twizzy]}  // Une seule image pour ce projet
+                            isBlog={false}
+                            title="Twizzy"
+                            description="Twizzy est une voiture autonome. Le projet consiste à détecter et identifier les panneaux de signalisation lors de la conduite. Nous avons développé la partie algorithmique, permettant de détecter les panneaux rencontrés à partir d'une vidéo en utilisant le machine learning. J'ai occupé le rôle de chef de projet. (JAVA, OpenCV)"
+                        />
+                    </Col>
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPaths={[sami,sami1,sami2]}  // Une seule image
+                            isBlog={false}
+                            title="SAMI"
+                            description="Projet complet visant à optimiser le parcours d'un robot pour qu'il atteigne des points le plus rapidement possible. J'ai contribué à la partie mathématique, où l'objectif était de trouver le meilleur algorithme pour parcourir ces points avec le moins de trajets possible, résolvant ainsi le problème du voyageur. (Python)"
+                        />
+                    </Col>
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPaths={[pacman]}  // Une seule image
+                            isBlog={false}
+                            title="PACMAN GAME"
+                            description="Projet scolaire où nous devions recréer un jeu de type PACMAN. L'objectif était de suivre une méthodologie SCRUM et de pratiquer la gestion de projet. Réalisé en Python."
+                        />
+                    </Col>
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPaths={[separation]}  // Une seule image
+                            isBlog={false}
+                            title="Machine Learning Séparation"
+                            description="Projet d'introduction au machine learning consistant à séparer des feuilles d'arbres en fonction de certaines caractéristiques. Réalisé en Python avec Scikit-learn."
+                        />
+                    </Col>        
                 </Row>
             </Container>
         </Container>

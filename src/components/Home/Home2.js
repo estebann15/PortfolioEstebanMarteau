@@ -17,20 +17,20 @@ function Home2() {
               Petite <span className="purple"> Introdcution </span> 
             </h1>
             <p className="home-about-body">
-              Je suis un jeune diplomé ingénieur et Master tout deux dans l'informatique. Je suis passionné de mathématiques et de programmation. Ce qui me plait dans ce domaine
-              c'est de réfléchir à une solution concrète et de pouvoir la traduire avec du code, je trouce cela très stimulant et intéréssant.
-              <br />
-              <br />Je maitrises plusieurs langages comme
-              <i>
-                <b className="purple"> Python, C++, C#, Java. </b>
-              </i>
-              <br />
-              <br />
-              Ce qui me plait le plus est la création d'algorithmes. Je rechcher un environnment
-              <i>
-                <b className="purple"> challengeant  </b> dans lequel je pourrais
-                <b className="purple"> apprendre </b> tous les jours.
-              </i>
+                Je suis un ingénieur récemment diplômé, aussi titulaire d'un Master en informatique. Passionné par les mathématiques et la programmation, ce qui m'inspire dans ce domaine, c'est de concevoir des solutions concrètes et de les implémenter en code. Ce processus est pour moi à la fois stimulant et enrichissant.
+                <br />
+                <br />Je maîtrise plusieurs langages de programmation, dont
+                <i>
+                    <b className="purple">Python, C++, C#, Java.</b>
+                </i>
+                <br />
+                <br />
+                Ce que je préfère, c'est la création d'algorithmes. Je suis à la recherche d'un environnement
+                <i>
+                    <b className="purple">dynamique</b> et
+                    <b className="purple">challengeant</b>, où je pourrais
+                    <b className="purple">apprendre</b> et évoluer chaque jour.
+                </i>
               <br />
               <br />                          
             </p>
@@ -43,7 +43,7 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>Vous pouvez me contacter par mail, téléphone ou sur Linkedin</h1>
+            <h1>Vous pouvez me contacter par e-mail, téléphone ou sur LinkedIn.</h1>
             <p>
               esteban.mrt15@gmail.com / (+33)6 18 17 32 55
             </p>

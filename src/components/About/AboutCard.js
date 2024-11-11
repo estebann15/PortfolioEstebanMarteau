@@ -6,45 +6,45 @@ function AboutCard() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
-        <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Bonjour, je suis <span className="purple">Esteban Marteau</span>     
+    <blockquote className="blockquote mb-0">
+        <p style={{ textAlign: "justify" }}>
+            Bonjour, je suis <span className="purple">Esteban Marteau</span>.
             <br />
-                      Je suis depuis peu, diplomé de Georgia Institute of technlogy (Master) et ENSEM (Ecole National Superieur d'Electricité et De mobilité) (Ingénieur) tout deux en section <span className="purple"> Informatique</span>, plutot généraliste.
-                      <br />
-                      <br />
-            Dans ces écoles, j'ai pu apprendre de nombreux sujets :
-                      <br />
-                      <br />
-            Mathématiques, Programmation, Développement, Machine Learning, Deep Learning, Robotique, Optimisations, Traitement de Signal, Automatisme, Bases de données, Systèmes et Reseaux, Electricité, Gestion de projets, Optimisation, Théorie des Graphes, Sureté de fonctionnement.
-                      <br />
-                      <br />
-                      <br /> Avec différentes technologies : Python, C++, C#, Java,Matlab, SQL, C, VHDL...
-                      <br /> 
-                      <br /> Et les méthodologies en V, agiles, SCRUM et diagrammes UML.
-                      <br />
-                      <br />
-            Dans mon temps libre j'ai de nombreux loisirs :
-          </p>
-          <ul>
+            Je suis récemment diplômé de Georgia Institute of Technology (Master) et de l'ENSEM (École Nationale Supérieure d'Électricité et de Mobilité) (Ingénieur), tous deux dans le domaine de l'<span className="purple">Informatique</span>, plutôt généraliste.
+            <br />
+            <br />
+            Au cours de mes études, j'ai acquis des compétences dans de nombreux domaines :
+            <br />
+            <br />
+            Mathématiques, programmation, développement, machine learning, deep learning, robotique, optimisation, traitement du signal, automatisme, bases de données, systèmes et réseaux, électricité, gestion de projets, optimisation, théorie des graphes, sûreté de fonctionnement.
+            <br />
+            <br />
+            <br /> J'ai également travaillé avec diverses technologies : Python, C++, C#, Java, Matlab, SQL, C, VHDL...
+            <br />
+            <br />
+            Et maîtrisé différentes méthodologies : cycle en V, agile, SCRUM, ainsi que les diagrammes UML.
+            <br />
+            <br />
+            Dans mon temps libre, j'ai de nombreux centres d'intérêt :
+        </p>
+        <ul>
             <li className="about-activity">
-              <ImPointRight /> Jeux videos (jouer et créer)
+                <ImPointRight /> Jeux vidéo (jouer et créer)
             </li>
             <li className="about-activity">
-              <ImPointRight /> Randonnées
+                <ImPointRight /> Randonnée
             </li>
             <li className="about-activity">
-              <ImPointRight /> Sport (Volley ball, Badminton et Escalade)
+                <ImPointRight /> Sport (volley-ball, badminton, escalade)
             </li>
             <li className="about-activity">
-                <ImPointRight /> Lecture (Livres et Mangas)
+                <ImPointRight /> Lecture (livres et mangas)
             </li>
             <li className="about-activity">
                 <ImPointRight /> Cuisine
             </li>
-          </ul>
-
-        </blockquote>
+        </ul>
+    </blockquote>
       </Card.Body>
     </Card>
   );

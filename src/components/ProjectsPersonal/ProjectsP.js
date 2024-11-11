@@ -27,8 +27,8 @@ function ProjectsPersonal() {
                         <ProjectPCard
                             imgPaths={[mestats2, mestats12]}
                             isBlog={false}
-                            title="Application perso"
-                            description="A venir"
+                            title="Application Mes Stats"
+                            description="Création d'une application en Python pour lister les films que j'ai vus, les livres que j'ai lus, les jeux auxquels j'ai joué, etc."
                         />
                     </Col>
                     {/* Un autre projet */}
@@ -36,8 +36,8 @@ function ProjectsPersonal() {
                         <ProjectPCard
                             imgPaths={[mestats1]}  // Tu peux ajouter d'autres images ici
                             isBlog={false}
-                            title="Site web perso"
-                            description="A venir"
+                            title="Site web Mes Stats"
+                            description="Création d'un site web pour transposer l'application précédente et y accéder en ligne. Réalisé avec Django, HTML et PostgreSQL."
                         />
                     </Col>
 
@@ -46,7 +46,7 @@ function ProjectsPersonal() {
                             imgPaths={[game1, game2]}  // Tu peux ajouter d'autres images ici
                             isBlog={false}
                             title="Jeu Pygame"
-                            description="A venir"
+                            description="Jeu simple en Python avec Pygame où le joueur doit survivre à plusieurs vagues de monstres et de météorites. Réalisé en suivant un tutoriel en ligne."
                         />
                     </Col>
 
@@ -54,8 +54,8 @@ function ProjectsPersonal() {
                         <ProjectPCard
                             imgPaths={[unity1, unity2]}  // Tu peux ajouter d'autres images ici
                             isBlog={false}
-                            title="Jeu UNITY 2D"
-                            description="A venir"
+                            title="THE RUSH LIKE : Jeu UNITY 2D"
+                            description="Création d'un jeu de plateforme/rogue-lite avec Unity. Ce jeu est simple et m'a permis de prendre en main Unity."
                         />
                     </Col>
                 </Row>
